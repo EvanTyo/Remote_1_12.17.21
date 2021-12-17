@@ -1,0 +1,69 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    background-color: lightgreen;
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.num_pad {
+    width: 220px;
+    height: 300px;
+    background-color: grey;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.num_row {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;  /* This is by default */
+    justify-content: space-between;
+}
+
+.button {
+    width: 32px;
+    height: 38px;
+    border-radius: 4px;
+    background-color: ghostwhite;
+    box-shadow: 2px 2px 2px black;
+    border: 1px solid black;
+    flex: 1;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: orangered;
+    font-weight: bold;
+}
+
+.button_tall {
+    height: 91px;
+}
+
+.button_clear {
+    width: 32px;
+    height: 38px;
+    flex: 1;
+    margin: 4px;
+}
+
+.long {
+    flex: 2;
+}
